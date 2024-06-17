@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { OfferItem } from "./components/OfferItem";
 
 const OffersContainer = styled.div`
-  width: 70%;
+  width: 90%;
   margin: 10px auto;
   background-color: var(--main-bg-color);
   padding: 20px;
