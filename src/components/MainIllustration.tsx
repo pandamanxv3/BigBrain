@@ -18,9 +18,9 @@ const MainIllustrationContainer = styled.div<{ navBarHeight: number }>`
   }
 `;
 
-const MainTitle = styled.h1`
+const MainTitle = styled.div`
   position: absolute;
-  top: 0;
+  top: 18%;
   transform: translate(0%, -50%);
   font-size: 13dvw;
   color: var(--main-bg-color);
