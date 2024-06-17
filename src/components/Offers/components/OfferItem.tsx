@@ -9,8 +9,6 @@ const OfferItemContainer = styled.div`
   width: 100%;
   max-width: 300px;
   margin: 20px;
-
-
 `;
 
 const OfferImage = styled.img`
@@ -60,8 +58,8 @@ const OfferButton = styled.a`
   border-radius: 5px;
   text-align: center;
   text-decoration: none;
-  font-family: "OldSchoolGrotesk";
-  font-size: 16px;
+  font-family: "OldSchoolGroteskCondensed";
+  font-size: 20px;
   transition: background-color 0.3s ease;
 
   &:hover {
@@ -88,7 +86,7 @@ export const OfferItem = ({ image, title, description, bulletPoints }: OfferItem
             <BulletPoint key={index}>{point}</BulletPoint>
           ))}
         </BulletPoints>
-        <OfferButton href="#">Learn More</OfferButton>
+        <OfferButton href="#">En savoir plus</OfferButton>
       </OfferContent>
     </OfferItemContainer>
   );
